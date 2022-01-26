@@ -13,11 +13,64 @@
         android:rotation="0"
         android:rotationX="0"
         android:rotationY="0"
-        android:text="ZIEMNIAKI"
+        android:text="Ziemniaki"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374" />
+
+    <CheckedTextView
+        android:id="@+id/ctv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mąka"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <CheckedTextView
+        android:id="@+id/ctv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cukier"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.485" />
+
+    <CheckedTextView
+        android:id="@+id/ctv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Żelki"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <TextView
+        android:id="@+id/zakupylbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LISTA ZAKUPÓW"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.369" />
+        app:layout_constraintVertical_bias="0.304" />
 </androidx.constraintlayout.widget.ConstraintLayout>

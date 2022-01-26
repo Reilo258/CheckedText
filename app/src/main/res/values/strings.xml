@@ -1,7 +1,14 @@
 <resources>
     <string name="app_name">CheckedText</string>
-    <string name="msg_shown">CTView is:</string>
-    <string name="checked">checked</string>
-    <string name="unchecked">unchecked</string>
+    <string name="msg_shown">Ziemniaki są</string>
+    <string name="msg_shown2">Mąka jest</string>
+    <string name="msg_shown3">Cukier jest</string>
+    <string name="msg_shown4">Żelki są</string>
+    <string name="checked">zaznaczone</string>
+    <string name="unchecked">odznaczone</string>
+    <string name="checked2">zaznaczona</string>
+    <string name="unchecked2">odznaczona</string>
+    <string name="checked3">zaznaczony</string>
+    <string name="unchecked3">odznaczony</string>
     <string name="checkedTextView">CheckedTextView</string>
 </resources>
